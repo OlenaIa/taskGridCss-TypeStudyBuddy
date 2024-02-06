@@ -25,29 +25,12 @@ body {
   box-sizing: border-box;
 }
 
-.title {
-
-}
-
-.sub-title {
-
-}
-
 img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-a {
-  text-decoration: none;
-  display: block;
-}
-
 ul {
   list-style: none;
-}
-
-@media (min-width: 768px) {
-
 }
