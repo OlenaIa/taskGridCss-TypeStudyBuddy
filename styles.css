@@ -1,12 +1,75 @@
 @import "./styleguide.css";
 
-
-@media (min-width: 1440px) {
-
+.header_container {
+  display: grid;
+  margin-top: 72px;
+  margin-bottom: 32px;
+  grid-template-columns: 88px 1fr 88px;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
-
-@media (min-width: 768px) {
-
+.header-decor {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: var(--background-grey);
 }
 
+.wrap-header-title {
+text-align: center;
+}
+
+.header_title {
+  font-family: 'Nova Cut', system-ui;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.header_sub-title {
+  color: var(--grey);
+}
+
+.main-title {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.05;
+    text-align: center;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 1fr 726px 426px;
+  gap: 24px;
+}
+
+.h3-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.13;
+    margin-bottom: 4px;
+}
+
+.section-1_article-img {
+  width: 726px; 
+  height: 484px;
+  background-color: var(--background-grey);
+  margin-bottom: 12px;
+}
+
+.img-title{
+    font-size: 12px;
+      line-height: 1.14;
+}
+
+.section-1_text {
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.h4-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin-bottom: 8px;
+}
